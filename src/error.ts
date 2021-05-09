@@ -1,4 +1,4 @@
-class Error {
+class gd_error {
 	errorId: number;
 	errorStr: string;
 
@@ -7,11 +7,5 @@ class Error {
 		this.errorStr = errorStr;
 	}
 
-	public error(s: string): void {
-		let gd_err: string;
-		if(s) {
-			throw gd_err;
-		}
-		console.error(s);
-	}
+	public error() {}
 }
