@@ -8,7 +8,7 @@
 import SongList = require("../gd/official_music");
 import Trigger = require("../editor/trigger");
 
-declare namespace gd_ts {
+declare module gd_ts {
 
 	export interface EditorUtils {
 

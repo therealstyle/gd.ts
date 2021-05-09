@@ -1,4 +1,4 @@
-namespace gd_ts {
+module gd_ts {
 	export enum Format {
 		mp3,
 		ogg,

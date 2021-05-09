@@ -4,11 +4,11 @@
 	Created at: 05.06.2021, Thursday
 */
 
-import EditorCategory = require("../editor/editor");
+import EditorCategory from ".editor";
 
 export type Trigger = {
 	id: number;
 	name: string;
 	group?: number;
-	category: gd_ts.EditorCategory;
+	category: EditorCategory;
 };
