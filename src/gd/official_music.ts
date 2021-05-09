@@ -1,4 +1,4 @@
-import { fileformat } from "fileformats";
+import { fileformat as ff } from "fileformats";
 
 export type Music = {
 	id: number;
@@ -8,10 +8,11 @@ export type Music = {
 }
 
 let MusicList = [
-	{ id: 0, name: "Stay Inside Me", filename: `StayInsideMe${fileformat}` },
-	{ id: 1, name: "Stereo Medness", filename: `StereoMadness${fileformat}` },
-	{ id: 2, name: "Back On Track", filename: `BackOnTrack${fileformat}` },
-	{ id: 3, name: "Dry Out", filename: `DryOut${fileformat}` },
-	{ id: 4, name: "Base After Base", filename: `BaseAfterBase${fileformat}` },
-	{ id: 5, name: "Cant let Go", filename: `CantLetGo${fileformat}` }
+	{ id: 0, name: "Stay Inside Me", filename: `StayInsideMe${ff}` },
+	{ id: 1, name: "Stereo Medness", filename: `StereoMadness${ff}` },
+	{ id: 2, name: "Back On Track", filename: `BackOnTrack${ff}` },
+	{ id: 3, name: "Dry Out", filename: `DryOut${ff}` },
+	{ id: 4, name: "Base After Base", filename: `BaseAfterBase${ff}` },
+	{ id: 5, name: "Cant let Go", filename: `CantLetGo${ff}` },
+	{ id: 6, name: "Jumper", filename: `Jumper${ff}`}
 ]
