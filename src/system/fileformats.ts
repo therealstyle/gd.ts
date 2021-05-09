@@ -1,11 +1,11 @@
-declare module 'gd.ts';
+namespace gd_ts {
+	export enum Format {
+		mp3,
+		ogg,
+		plist,
+		png,
+		dll
+	}
 
-export enum Format {
-	mp3,
-	ogg,
-	plist,
-	png,
-	dll
+	let fileformat: string = `.${Format}`;
 }
-
-let fileformat: string = `.${Format}`;

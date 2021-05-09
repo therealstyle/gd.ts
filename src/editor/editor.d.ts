@@ -5,7 +5,10 @@
    	License: no, i haven't until
 */
 
-declare module 'gd.ts' {
+import SongList = require("../gd/official_music");
+import Trigger = require("../editor/trigger");
+
+declare namespace gd_ts {
 
 	export interface EditorUtils {
 
