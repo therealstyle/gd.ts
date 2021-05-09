@@ -45,16 +45,6 @@ declare module 'gd.ts' {
 		XL
 	}
 
-	/* Music type */ 
-	export type Music = {
-		id: number;
-		name: string;
-		author: string;
-		isDownloaded: boolean;
-		isBlocked: boolean;
-		size: number;
-	}
-
 	export interface EditorCategory {
 		id: number;
 		name: string;
