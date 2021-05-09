@@ -46,7 +46,7 @@ declare module 'gd.ts' {
 	}
 
 	/* Music type */ 
-	export type Music {
+	export type Music = {
 		id: number;
 		name: string;
 		author: string;

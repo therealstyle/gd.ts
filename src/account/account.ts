@@ -2,7 +2,7 @@ import { Register } from 'registration.ts';
 
 /*  */
 
-type Account {
+type Account = {
 	stars: number;
 	diamonds: number;
 	secretCoins: number;
